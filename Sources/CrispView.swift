@@ -23,7 +23,7 @@ open class CrispView: UIView, UIWebViewDelegate {
         
         loadWebView()
        
-        CrispView.webView?.scrollView.isScrollEnabled = false;
+//        CrispView.webView?.scrollView.isScrollEnabled = false;
         CrispView.webView?.dataDetectorTypes = .all;
         CrispView.webView?.scalesPageToFit = true;
         CrispView.webView?.contentMode = .scaleAspectFit;
